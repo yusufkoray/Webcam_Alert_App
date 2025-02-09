@@ -1,0 +1,1 @@
+# When an object enters the frame from another location, this project will alert and send you an email. Also takes the picture of the object which enters the frame.
