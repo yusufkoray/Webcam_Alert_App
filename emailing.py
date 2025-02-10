@@ -1,11 +1,13 @@
 import smtplib
 from email.message import  EmailMessage
 import imghdr
+import os
 
+APP_PASSWORD=os.getenv("SON")
 
-APP_PASSWORD="yinl ilao owty cykx"
 SENDER="ykcspor@gmail.com"
 RECEIVER="ykcspor@gmail.com"
+
 
 def send_email(image_path=None):
     email_message = EmailMessage()
